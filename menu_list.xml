@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- First Facebook Icon -->
+    <item
+        android:id="@+id/action_facebook_icon1"
+        android:icon="@drawable/ic_home"
+        android:title="Facebook Icon 1"
+        android:orderInCategory="100"
+        app:showAsAction="always">
+    </item>
+
+    <!-- Second Facebook Icon -->
+    <item
+        android:id="@+id/action_facebook_icon2"
+        android:icon="@drawable/ic_watch"
+        android:title="Facebook Icon 2"
+        android:orderInCategory="101"
+        app:showAsAction="always">
+    </item>
+
+    <!-- Third Facebook icon-->
+    <item
+        android:id="@+id/action_facebook_icon3"
+        android:icon="@drawable/ic_shop"
+        android:title="Facebook Icon 2"
+        android:orderInCategory="101"
+        app:showAsAction="always">
+    </item>
+
+    <!-- Fourth Facebook icon-->
+    <item
+        android:id="@+id/action_facebook_icon4"
+        android:icon="@drawable/ic_notification"
+        android:title="Facebook Icon 2"
+        android:orderInCategory="101"
+        app:showAsAction="always">
+    </item>
+
+</menu>
